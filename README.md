@@ -12,7 +12,7 @@ O usuário pode inserir um número de CPF e verificar instantaneamente se ele é
 📦 **Clone o repositório:**
 
 ```bash
-git clone https://github.com/kinast87/validador-de-cpf.git
+Clone este repositório: git clone https://github.com/kinast87/validador-de-cpf.git 
 🧠 Como funciona
 O script aplica as regras oficiais de validação do CPF:
 
@@ -72,7 +72,7 @@ Users can enter a CPF number and instantly check if it is **valid or invalid**, 
 📦 **Clone the repository:**
 
 ```bash
-git clone https://github.com/kinast87/validador-de-cpf.git
+git clone: https://github.com/kinast87/validador-de-cpf.git 
 🧠 How it works
 The script applies the official CPF validation algorithm:
 
