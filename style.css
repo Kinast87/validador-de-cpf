@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1361d5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  color: white;
+}
+
+#dados {
+  background-color: #c3c39e;
+  width: 40vw;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 2px 2px 5px black;
+  border: 1.5px solid black;
+  text-align: center;
+}
+
+#dados input[type="text"] {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #444;
+  width: 200px;
+}
+
+#dados input[type="button"] {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #1361d5;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#dados input[type="button"]:hover {
+  background: #0d4aa6;
+}
+
+#resposta {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.valido {
+  color: green;
+}
+
+.invalido {
+  color: red;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+@media screen and (max-width: 768px) {
+  #dados{
+    min-width: 250px;
+  }
+}

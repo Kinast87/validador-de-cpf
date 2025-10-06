@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Validador de CPF</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Validador de CPF</h1>
+  </header>
+
+  <section id="dados">
+    <p>
+      CPF <input type="text" id="txtcpf" placeholder="Digite apenas números..." minlength="11" maxlength="11" pattern="\d{11}" required>
+    </p>
+    <p>
+      <input type="button" value="Validar" id="validar">
+    </p>
+    <p id="resposta">Aguardando CPF...</p>
+  </section>
+
+  <script src="desafio001.js"></script>
+</body>
+</html>
